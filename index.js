@@ -38,9 +38,5 @@ per=(score/(Questions.length+1))*100
 
 document.getElementById("resultID").innerHTML = "Your Result is "+per+"%";
 
-  /*let person = prompt("Please enter your name", "Harry Potter");
-  if (person != null) {
-    document.getElementById("resultID").innerHTML =
-    "Hello " + person + "! How are you today?";
-  }*/
+
 }
