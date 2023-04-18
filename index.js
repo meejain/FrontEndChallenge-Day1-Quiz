@@ -1,4 +1,15 @@
-let actualdl = [];
+
+<html>
+	<body>
+	
+	<h1>Welcome to the Quiz</h1>
+	
+	<button onclick="myFunction()">Please click here for the Questionnaire</button>
+	
+	<p id="resultID"></p>
+	
+	<script>
+		let actualdl = [];
 	function myFunction() {
 	let score=0;
 		let testarray=[];
@@ -98,3 +109,8 @@ let actualdl = [];
 	document.getElementById("resultID").innerHTML = "Your Result is "+per+"%";
 	
 	}
+	</script>
+	
+	</body>
+	</html>
+	
